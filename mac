@@ -114,6 +114,8 @@ tap "thoughtbot/formulae"
 tap "homebrew/services"
 tap "universal-ctags/universal-ctags"
 tap "heroku/brew"
+tap "d12frosted/emacs-plus"
+tap "homebrew/cask-font"
 
 # Unix
 brew "universal-ctags", args: ["HEAD"]
@@ -126,6 +128,8 @@ brew "tmux"
 brew "vim"
 brew "watchman"
 brew "zsh"
+brew "emacs-plus"
+cask "font-source-code-pro"
 
 # Heroku
 brew "heroku/brew/heroku"
